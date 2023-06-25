@@ -19,7 +19,10 @@ dependencies:
   path_provider: ^2.0.12
   transparent_image: ^2.0.1 # show fade-in placeholder in thumbnails generation
   video_player: ^2.5.2
-  video_thumbnail: ^0.5.3
+  video_thumbnail:
+    git:
+      url: https://github.com/datsfire/ui.git
+      ref: fire_thumbnail
 
 dev_dependencies:
   flutter_test:
